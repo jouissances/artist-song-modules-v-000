@@ -5,7 +5,7 @@ module Memorable
   end
 
   def count
-    @@artists.length
+    self.length
   end
 
 end
