@@ -1,11 +1,11 @@
 module Memorable
 
   def reset_all
-    all.clear
+    self.all.clear
   end
   
   def count
-    count
+    @@artists.length
   end
 
 end
